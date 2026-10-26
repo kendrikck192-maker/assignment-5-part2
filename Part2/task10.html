@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Mouse and Focus Events</h2>
+
+<div id="card" tabindex="0">
+    Focusable Card
+</div>
+
+<p id="text">Move the mouse over the card</p>
+
+<style>
+#card {
+    width: 250px;
+    padding: 30px;
+    border: 2px solid black;
+}
+
+.highlight {
+    background: yellow;
+}
+
+#card:focus {
+    outline: 3px solid blue;
+}
+</style>
+
+<script src="task10.js"></script>
+</body>
+</html>
